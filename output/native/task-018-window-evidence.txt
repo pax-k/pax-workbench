@@ -1,0 +1,28 @@
+Task 018 packaged-native window evidence
+Date: 2026-07-23
+App: /Users/pax/Documents/Repos/pax-workbench/src-tauri/target/debug/bundle/macos/Build Right Studio.app
+Binary SHA-256: 1e938409d2684bcdb4aef2b85a697eb5de3c869733924d1c272377c3510bd86c
+
+Standard pass
+- macOS accessibility/CG window size: 1440x900
+- App-control capture raster: 1229x768 (service-normalized)
+- Artifact: task-018-collaborator-standard.jpeg
+- SHA-256: 9cab96fe0ac8daee07b0763eaa8a1bd416fa0083363e586900601f61d444994e
+
+Native-minimum pass
+- macOS accessibility/CG window size: 1080x760
+- App-control capture raster: 1080x760
+- Artifact: task-018-collaborator-narrow.jpeg
+- SHA-256: defff704f93221691ef660c26ee861d3380d5cd5a869d9e0d0d9dfc3a02c0f
+
+Role passes
+- Local solo standard artifact SHA-256: 86f9ccd8a7ac266b4d9776c7ab4e0bbbfd382df28a1d59bfef871b9012a0eebe
+- Viewer standard artifact SHA-256: b760eff99d1117c21fdeea561fe413972de1919205335a27fa81e0cdba548cc8
+- Viewer accessibility projection disabled publish and exposed sanitized workspace/access/actor only.
+- Collaborator accessibility projection exposed sanitized workspace/access/actor only.
+- The one-shot Viewer and Collaborator capability markers were absent from dist and every Task 018 image.
+
+Scope
+- Viewer and Collaborator used localhost-only MDSync discovery.
+- No hosted MDSync request was made.
+- Conflict, stale, sync-pending, and repair-required breadth is deterministic component-fixture evidence, not live-hosted evidence.

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "id": "build-right-engineering-principles",
+  "name": "Build Right engineering principles",
+  "lifecyclePhase": "Principles",
+  "purpose": "Protect boundaries, contracts, tests, and security.",
+  "reads": ["docs/", "tasks/", "skills-lock.json", "AGENTS.md"],
+  "writes": ["docs/decision-log.md", "tasks/"],
+  "decisions": ["accept", "revise", "enforce"],
+  "helpers": [],
+  "requiredEvidence": ["contract test", "verification result", "residual risk"],
+  "stopStates": ["ask-founder", "blocked", "failed-verification"],
+  "renderer": "operating-card",
+  "provenance": {
+    "source": "pax-k/build-right",
+    "installedPath": ".agents/skills/build-right-engineering-principles/SKILL.md",
+    "lockHash": "48699c5905b5d1fa35120bf0e9c95b355e976da75d37337a11bdfe8253377f5d"
+  }
+}

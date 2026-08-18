@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "build-right-engineering-principles": {
+      "source": "pax-k/build-right",
+      "sourceType": "github",
+      "skillPath": "skills/build-right-engineering-principles/SKILL.md",
+      "computedHash": "48699c5905b5d1fa35120bf0e9c95b355e976da75d37337a11bdfe8253377f5d"
+    },
+    "build-right-execution": {
+      "source": "pax-k/build-right",
+      "sourceType": "github",
+      "skillPath": "skills/build-right-execution/SKILL.md",
+      "computedHash": "f85c42a213f8e75c5df6ff493887c64f846d62642613b3e4fb60c11d9acf6fb0"
+    },
+    "build-right-feature-planning": {
+      "source": "pax-k/build-right",
+      "sourceType": "github",
+      "skillPath": "skills/build-right-feature-planning/SKILL.md",
+      "computedHash": "2fe95e0c6f17cd504b9bed35c0eeac25adfc553718625a82005641772a2ef352"
+    },
+    "build-right-preflight": {
+      "source": "pax-k/build-right",
+      "sourceType": "github",
+      "skillPath": "skills/build-right-preflight/SKILL.md",
+      "computedHash": "826ee890031fe5f4c99f8a652255b4615e5358cc6b2aae535625598a7202a5c5"
+    }
+  }
+}

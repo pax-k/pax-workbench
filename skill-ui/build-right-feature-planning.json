@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "id": "build-right-feature-planning",
+  "name": "Build Right feature planning",
+  "lifecyclePhase": "Plan",
+  "purpose": "Shape a feature into ordered, bounded work.",
+  "reads": ["docs/", "tasks/", "skills-lock.json", "AGENTS.md"],
+  "writes": ["tasks/", "docs/decision-log.md"],
+  "decisions": ["groom", "split", "ready-task"],
+  "helpers": [{ "id": "feature-planning-check", "execution": "explicit-user-action" }],
+  "requiredEvidence": ["requirement basis", "reversibility", "learning objective"],
+  "stopStates": ["ask-founder", "wait-external", "blocked"],
+  "renderer": "operating-card",
+  "provenance": {
+    "source": "pax-k/build-right",
+    "installedPath": ".agents/skills/build-right-feature-planning/SKILL.md",
+    "lockHash": "2fe95e0c6f17cd504b9bed35c0eeac25adfc553718625a82005641772a2ef352"
+  }
+}

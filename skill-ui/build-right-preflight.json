@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "id": "build-right-preflight",
+  "name": "Build Right preflight",
+  "lifecyclePhase": "Discover",
+  "purpose": "Turn intent and evidence into trusted product truth.",
+  "reads": ["docs/", "tasks/", "skills-lock.json", "AGENTS.md"],
+  "writes": ["docs/", "tasks/"],
+  "decisions": ["ask-founder", "write-artifacts", "ready"],
+  "helpers": [{ "id": "preflight-check", "execution": "explicit-user-action" }],
+  "requiredEvidence": ["source mode", "prototype confidence", "readiness result"],
+  "stopStates": ["ask-founder", "wait-external", "blocked"],
+  "renderer": "operating-card",
+  "provenance": {
+    "source": "pax-k/build-right",
+    "installedPath": ".agents/skills/build-right-preflight/SKILL.md",
+    "lockHash": "826ee890031fe5f4c99f8a652255b4615e5358cc6b2aae535625598a7202a5c5"
+  }
+}

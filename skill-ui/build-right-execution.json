@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "id": "build-right-execution",
+  "name": "Build Right execution",
+  "lifecyclePhase": "Build",
+  "purpose": "Complete and prove exactly one ready task.",
+  "reads": ["docs/", "tasks/", "skills-lock.json", "AGENTS.md"],
+  "writes": ["tasks/", "docs/evidence/", "docs/decision-log.md"],
+  "decisions": ["execute-task", "wait-external", "blocked"],
+  "helpers": [
+    { "id": "continue-check", "execution": "explicit-user-action" },
+    { "id": "execution-check", "execution": "explicit-user-action" }
+  ],
+  "requiredEvidence": ["baseline result", "commands run", "verification result", "source under test"],
+  "stopStates": ["ask-founder", "wait-external", "blocked", "failed-verification"],
+  "renderer": "operating-card",
+  "provenance": {
+    "source": "pax-k/build-right",
+    "installedPath": ".agents/skills/build-right-execution/SKILL.md",
+    "lockHash": "f85c42a213f8e75c5df6ff493887c64f846d62642613b3e4fb60c11d9acf6fb0"
+  }
+}
